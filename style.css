@@ -20,7 +20,7 @@
 
 #homebody, #aboutbody, #workbody {
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-color: #F55FAA;
 }
 
@@ -51,7 +51,7 @@
 
 nav {
     font-family: navFont;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 ul {
@@ -64,11 +64,11 @@ ul {
 li {
     margin: 0%;
     padding: 0%;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 nav a:link, a:visited {
-    color: #2C7290;;
+    color: #F55FAA;;
     text-decoration: none;
 }
 
@@ -341,7 +341,8 @@ body .header{
 }
 
 .abouttxt {
-	margin: 0%;
+	margin-right: 1vw;
+	color: #CC0066;
 }
 
 .contact {
@@ -365,7 +366,7 @@ body .header{
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
-	padding: 5%;
+	padding: 2.5%;
 	font-family: headerfont;
 	font-size: 2vw;
 }
@@ -378,7 +379,7 @@ body .header{
 #links {
 	width: 100%;
 	line-height: 200%;
-	color: #F0E3FB;
+	color: #CC0066;
 }
 
 #links li {
@@ -388,7 +389,7 @@ body .header{
 }
 
 .email-link {
-	color: #2C7290;
+	color: #F55FAA;
 }
 
 
@@ -406,14 +407,14 @@ body .header{
 
 .previews img {
 	width: 100%;
-	height: 100%;
+	height: 45vh;
 	object-fit: cover;
 	border-radius: 5px;
 }
 
 .designcontainer {
 	width: 33%;
-	height: 50vh;
+/*	height: 50vh;*/
 	overflow: hidden;
 	position: relative;
 }
@@ -626,7 +627,6 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
 
 
 
